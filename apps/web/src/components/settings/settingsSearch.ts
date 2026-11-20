@@ -368,6 +368,12 @@ export const SETTINGS_SEARCH_ITEMS = [
     searchTerms: [msg("wide full width column layout messages composer monitor")],
   },
   {
+    id: "usage-icon-click-behavior",
+    title: msg("Usage icon action"),
+    to: "/settings/appearance",
+    searchTerms: [msg("sidebar quick view popover usage page limits icon click")],
+  },
+  {
     id: "thread-details-items",
     title: msg("Thread details"),
     to: "/settings/appearance",
@@ -804,6 +810,16 @@ export const SETTINGS_SEARCH_ITEMS = [
     title: msg("Follow-up behavior"),
     to: "/settings/chat",
     searchTerms: [msg("queue steer running turn send default behavior composer")],
+  },
+  {
+    id: "side-thread-open-target",
+    title: msg("Open subagents and side chats in"),
+    to: "/settings/chat",
+    searchTerms: [
+      msg(
+        "subagent side chat linked thread click right panel side panel main view command ctrl middle click",
+      ),
+    ],
   },
   {
     id: "provider-update-checks",
@@ -1390,6 +1406,15 @@ export const SETTINGS_SEARCH_ITEMS = [
     targetId: "connections-environment",
     searchTerms: [msg("mobile push notifications live activities cloud tunnel")],
     cloudOnly: true,
+  },
+  {
+    id: "preview-tunnel",
+    title: msg("Preview tunnel"),
+    to: "/settings/access",
+    targetId: "connections-environment",
+    searchTerms: [
+      msg("localhost loopback port forwarding open on this device browser tabs stream security"),
+    ],
   },
   {
     id: "connections-environment",
